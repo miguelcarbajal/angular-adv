@@ -1,1 +1,23 @@
-<p>grafica1 works!</p>
+<div class="row">
+  <div class="col-6">
+    <app-doughnut title="Ventas"
+                  [data]="[[350, 450, 100]]"
+                  [labels]="['Marzo', 'Abril', 'Mayo']"></app-doughnut>
+  </div>
+  <div class="col-6">
+    <app-doughnut title="Compras"
+                  [data]="[[100, 250, 75]]"
+                  [labels]="['Marzo', 'Abril', 'Mayo']"></app-doughnut>
+  </div>
+</div>
+<div class="row">
+  <div class="col-6">
+    <app-doughnut [data]="[[200, 150, 300]]"
+                  [labels]="['Marzo', 'Abril', 'Mayo']"></app-doughnut>
+  </div>
+  <div class="col-6">
+    <app-doughnut title="Garantías"
+                  [data]="[[300, 250, 50]]"
+                  [labels]="['Devoluciones', 'Reintegros', 'Saldados']"></app-doughnut>
+  </div>
+</div>
