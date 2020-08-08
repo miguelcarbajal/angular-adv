@@ -2,3 +2,7 @@
 .fast {
   animation-duration: 300ms;
 }
+
+#themecolors .selector {
+  cursor: pointer;
+}
